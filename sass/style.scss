@@ -1,0 +1,22 @@
+html, body {
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: alata;
+}
+
+
+main {
+    background: hsl(0, 0%, 100%);
+}
+
+@import "variables";
+@import "mixin";
+
+// Componentes
+@import "header";
+@import "menu";
+@import "about-us";
+@import "creations";
+@import "footer";
+
+
